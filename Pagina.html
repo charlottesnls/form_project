@@ -6,12 +6,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <title>Document</title>
+
+    <style>
+      body{
+        margin-left: 50px;
+        margin-right: 50px;
+      }
+    </style>
 </head>
 <body>
     <h1>Registreer</h1>
     <p>Meld je aan bij Anoroc Services, wij beschermen jouw software tegen malware!</p>
     <form>
-        <div class="row g-3">
+        <div class="row sm-3">
             <div class="col-md-6">
              <p>Voornaam</p>
                <input type="text" class="form-control" placeholder="Uw voornaam" aria-label="Uw naam">
@@ -74,8 +81,10 @@
 
             <div class="col-md-3">
              <p>Postcode</p>
-                  <!-- nog uitzoeken -->
+              <input type="text" class="form-control" placeholder="" aria-label="postcode"> 
             </div>
+
+            <hr>
 
             <div class="col-md-6">
              <h3>Hou me op de hoogte</h3>
@@ -120,6 +129,10 @@
                 </label>
               </div>
             </div>
+
+            <hr>
+
+            <button type="button" class="btn btn-primary btn-lg">Large button</button>
 
         </div>
     </form>
